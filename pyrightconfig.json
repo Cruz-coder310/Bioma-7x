@@ -1,0 +1,12 @@
+{
+    "include": ["src"],
+    "exclude": [
+        "**/node_modules",
+    "**/__pycache__",
+    ".venv",
+    "venv",
+    ".git"
+    ],
+    "reportMissingImports": "warning",
+    "pythonVersion": "3.13.5"
+}
